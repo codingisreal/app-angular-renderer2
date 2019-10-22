@@ -1,13 +1,13 @@
 import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import { NgModule, Directive } from "@angular/core";
 
 import { AppComponent } from "./app.component";
-import { AlertComponent } from "./Alert/alert.component";
+import { Lighter } from "./Directives/app.lighter.directive";
 
 @NgModule({
-  declarations: [AppComponent, AlertComponent],
+  declarations: [AppComponent, Lighter],
   imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent, AlertComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

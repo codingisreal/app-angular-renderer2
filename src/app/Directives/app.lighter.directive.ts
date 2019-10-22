@@ -12,6 +12,11 @@ import {
 export class Lighter implements OnInit {
   shades: string[] = ["red", "purple", "deep-purple", "cyan", "blue"];
   possibleColors = [
+    "red",
+    "purple",
+    "deep-purple",
+    "cyan",
+    "blue",
     "darksalmon",
     "hotpink",
     "lightskyblue",

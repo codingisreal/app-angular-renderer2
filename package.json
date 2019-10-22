@@ -1,5 +1,5 @@
 {
-  "name": "app-angular-renderer2",
+  "name": "angular-apps-renderer2",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -48,11 +48,6 @@
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
   },
-  "keywords": [
-    "renderer2",
-    "angular",
-    "directives",
-    "bootstrap"
-  ],
+  "keywords": [],
   "description": "Basic implementation on Renderer2 in Angular"
 }
